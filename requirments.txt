@@ -1,0 +1,31 @@
+1. Navbar :
+    - Searchbox with icon inside
+    - Both Navbar and Searchbox rounded
+
+2. Banner section :
+    - Slider
+    - Title
+    - Button
+    - Description optional
+    
+3. Deal of the day section
+    - Title
+    - Timer
+    - Cards
+    - Details button inside cards has another functionality
+
+4. Meet the team section
+    - Title + Text
+    - Rounded shaped avatars
+    - small icons for each hero
+    - All hero should be in one line 
+    
+5. Footer :
+    - As is
+    - Minimum 3 social icons
+    
+    
+# Optionals :
+    - Modal in details button in 3rd point. As is.
+    - Why choose us full section
+    - Responsiveness
