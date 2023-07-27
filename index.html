@@ -25,33 +25,18 @@
     </style>
   </head>
   <body class="font-primary">
-    <header class="container mx-auto">
-      <nav class="mt-14 mb-14 overflow-hidden">
+    <header class="container mx-auto p-5">
+      <nav class="mt-14 mb-14">
         <!-- DaisyUI Navbar Paste -->
         <div
           class="flex flex-row-reverse lg:flex-row justify-between bg-orange-600 rounded-full py-5 px-8"
         >
           <div class="">
-            <div class="2xl:hidden dropdown">
-              <label tabindex="0" class="btn btn-ghost btn-circle">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  class="h-5 w-5"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                >
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M4 6h16M4 12h16M4 18h7"
-                  />
-                </svg>
-              </label>
+            <div class="dropdown dropdown-bottom dropdown-end 2xl:hidden z-50">
+              <label tabindex="0" class="btn m-1">Click</label>
               <ul
                 tabindex="0"
-                class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52 font-medium text-black text-lg"
+                class="dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-52"
               >
                 <li><a>Home</a></li>
                 <li><a>About Us</a></li>
@@ -72,8 +57,10 @@
           </div>
           <div class="">
             <!-- LOGO -->
-            <a class="btn btn-ghost normal-case">
-              <img src="images/logo.png" alt="" class="h-full" />
+            <a
+              class="cursor-pointer normal-case flex items-center justify-center gap-1"
+            >
+              <img src="images/logo.png" alt="" class="w-auto" />
               <span class="font-bold text-white text-xl sm:text-4xl"
                 >Fruit Burst</span
               >
@@ -109,14 +96,14 @@
         </div>
       </nav>
       <section>
-        <div class="carousel w-full -z-10">
-          <div id="slide1" class="carousel-item relative w-full">
-            <img src="images/banner1.png" class="w-full" />
+        <div class="carousel w-full">
+          <div id="slide1" class="carousel-item relative w-full min-h-[190px]">
+            <img src="images/banner1.png" class="w-full object-cover" />
             <div
               class="w-full h-full flex flex-col items-center justify-center space-y-2 md:space-y-8 absolute bg-gradient-to-b from-[#121212] to-[#12121200]"
             >
               <h1
-                class="text-center font-extrabold text-2xl md:text-7xl text-white"
+                class="text-center font-extrabold text-xl sm:text-2xl xl:text-7xl text-white"
               >
                 Exotic tastes at your<br />doorstep
               </h1>
@@ -216,7 +203,7 @@
           </div>
         </div>
         <div
-          class="relative w-3/5 mx-auto hidden lg:flex justify-around bg-white xl:-mt-20 lg:-mt-14 z-50 p-12"
+          class="relative w-3/5 mx-auto hidden lg:flex justify-around bg-white xl:-mt-20 lg:-mt-14 z-10 p-12"
         >
           <div class="space-y-4">
             <img src="images/fruit1.png" alt="" />
